@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    background-color: #084d6e;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    color: #fff;
+}
+
+span{
+    font-size: 5.625rem;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#hour, #min, #sec {
+box-shadow: 0 0  15px 5px black;
+}
+
+
+@media (max-width: 500px) {
+    span{
+        font-size: 3.125rem;
+        margin: 0;
+    }
+}
